@@ -2,9 +2,9 @@
 
 #define THREAD_PRIORITY         25
 #define THREAD_STACK_SIZE       512
-#define THREAD_TIMESLICE        5
-
-static rt_thread_t tid1 = RT_NULL;
+#define THREAD_TIMESLICE 5
+//123
+静态 rt_thread_t  tid1  =  RT_NULL ;
 
 
 static void thread1_entry(void *parameter)
